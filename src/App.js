@@ -21,6 +21,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/404" element={<NotFound />} />
+        <Route path="/blank-page" element={<BlankPage />} />
         <Route path="/" element={<Navigate to="/portal/dashboard" />} />
         <Route path="/portal" element={<Portal />}>
           <Route path="dashboard" element={<Dashboard />} />
